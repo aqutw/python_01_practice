@@ -13,7 +13,7 @@ print only_first_upper('abc') #should be Abc
 print only_first_upper('aBc') #should be ABc
 
 print '--official answer--'
-def firstCharUpper(s): #<--Let me guess pythoner like camelCase.
+def firstCharUpper(s): 
     return s[0].upper() + s[1:]
 print firstCharUpper('hello')
 print firstCharUpper('sunday')
